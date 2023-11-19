@@ -1,10 +1,19 @@
+@font-face {
+    font-family: futura;
+    src: url(/fonts/Futura-Bold.woff);
+}
+@font-face{
+    font-family: Gilroy;
+    src: url(/Gilroy-Medium.woff);
+    letter-spacing: 0px;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
 }
-html, body{
+html, body{https://github.com/piyush22123/Two-Good.com-clone
     height: 100%;
     width: 100%;
     background-color: #F7F7F7;
@@ -86,7 +95,8 @@ html, body{
     font-family: futura;
     text-transform: uppercase;
     line-height: 14vw;
-    letter-spacing: -8px;
+    letter-spacing: -12px;
+    text-align: center;
 }
 .video-container{
     height: 100vh;
